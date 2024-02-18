@@ -1,6 +1,6 @@
  *{
     margin: 0;
-
+    font-family: "Work Sans", sans-serif;
   }
 
   .work-sans-regular {
@@ -58,34 +58,21 @@ margin-top: 0;
 
 
 .banner-container{
-
-  
-
-    /* margin-top:216px; 
-   margin-right: 230px;
-   margin-bottom: 300px;
-   margin-left: 700px;  */
-
- 
 padding-top: 180px;
-padding-right:230px ;
- padding-bottom: 300px; 
-padding-left: 700px;  
-
-
+text-align: right;
+padding-right:180px ;
+padding-bottom: 300px; 
+padding-left: 650px;   
+ 
 
 }
 
 
 .banner-container-title{
 
-  color: rgb(255, 255, 255);
-  font-family: Work Sans;
-  font-size: 65px;
-  font-weight: 700;
-  line-height: 76px;
-  letter-spacing: 0%;
-  text-align: right;
+color: rgb(255, 255, 255);
+font-size: 65px;
+font-weight: 700;
 
  
 }
@@ -98,11 +85,8 @@ padding-left: 700px;
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: 0%;
-  text-align: right;
-  /* border: 1px solid red; */
-  /* padding-top: 10px; */
   margin-top: 20px;
+  padding-left: 50px;
 }
 
 .Contact-Us-button{
@@ -110,18 +94,83 @@ padding-left: 700px;
 border-radius: 5px;
 background: rgb(255, 255, 255);
 color: rgb(0, 95, 172);
-font-family: Work Sans;
 font-size: 20px;
 font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
 text-align: right;
 border: 0;
-padding: 15px 15px  15px 15px;
-/* border: 1px solid orangered; */
- margin-top: 15px; 
-   margin-left: 275px;  
-
+padding: 15px;
+margin-top: 15px; 
 
 
 }
+
+
+/* main section related style */
+
+.main-container{
+display: flex;
+margin-top: 141px;  
+align-items: center;
+gap: 20px;
+
+
+}
+
+.main-container-pic{
+
+margin-top: 10px ;
+margin-right:50px ;
+margin-bottom: 100px;
+margin-left: 50px; 
+
+
+}
+
+
+.main-container-content  {
+    margin-right: 140px;    
+   
+
+}
+
+
+
+
+.main-container-content-title{
+
+color: rgb(21, 20, 20);
+font-size: 40px;
+font-weight: 700;
+text-align: left;
+padding-right: 100px;
+
+
+}
+
+.main-container-content-description{
+
+color: rgb(68, 67, 67);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+ margin-top: 20px; 
+padding-right: 60px;
+
+}
+
+.main-container-content-description {
+
+margin-bottom: 10px;
+
+}
+  
+   
+
+
+/* ul i{
+  color: rgb(22, 216, 135);
+} */
+
+ 
