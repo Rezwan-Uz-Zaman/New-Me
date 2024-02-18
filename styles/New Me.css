@@ -208,9 +208,9 @@ margin-bottom: 10px;
 }
 
 .watch{
-  height: 400px;
- position: relative;
-  margin: 0px 130px 100px  130px ;
+height: 400px;
+position: relative;
+margin: 0px 130px 100px  130px ;
  
 
 }
@@ -242,4 +242,119 @@ text-align: center;
 
    
 
+/* footer related styles */
 
+.footer{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(21, 20, 20);
+  padding: 150px   150px;  
+  padding-right: 250px; 
+
+
+  
+}
+
+
+ .footer-column{
+
+} 
+
+.future{
+
+color: rgb(248, 248, 248);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 20px;
+
+
+}
+
+.footer-colum-description{
+
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 20px;
+   padding-right: 320px;  
+
+}
+
+.footer-column-info{
+
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 18px;
+}
+
+ .links a {
+
+  padding-right: 18px;
+}
+
+
+.footer-column-right {
+
+/* padding-bottom: 200px; */
+margin-bottom: 130px;
+
+  
+}
+
+
+.Subscribe{
+
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+
+
+.Enter-Your-Email{
+
+
+color: rgb(243, 243, 243);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+background: rgb(21, 20, 20);
+padding: 18px 20px;
+border: 1px solid rgb(243, 243, 243);
+}
+
+
+.Subscribe-button{
+
+border-radius: 8px;
+background: rgb(0, 95, 172);
+border: 0;
+padding: 12px 24px;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+margin-bottom: 0px;
+margin-top: 20px;
+
+}
